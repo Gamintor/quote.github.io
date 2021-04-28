@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500&display=swap');
+
+div {
+  position: relative;
+  z-index: 2;
+}
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    vertical-align: baseline;
+}
+
+body {
+  background-color: #333;
+  color: #333;
+  font-family: "Work Sans", sans-serif !important;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.footer {
+  width: 470px;
+  text-align: center;
+  display: block;
+  padding-top: 10px;
+  margin: 5px auto 30px auto;
+  font-size: 0.8em;
+  color: white;
+}
+
+#quote-box {
+  border-radius: 4px;
+  position: relative;
+  width: 470px;
+  padding: 45px 55px;
+  display: table;
+  background-color: #F5FFFA;
+  box-shadow: 5px 5px 8px 2px rgba(0,0,0,0.8);
+}
+#quote-box .quote-text {
+  text-align: center;
+  width: 470px;
+  clear: both;
+  height: auto;
+  font-weight: 400;
+  font-size: 1.75em;
+}
+
+#quote-box .quote-author {
+  width: 470px;
+  height: auto;
+  clear: both;
+  padding-top: 20px;
+  text-align: right;
+  font-size: 1em;
+}
+#author {
+  font-style: italic
+}
+#quote-box .buttons {
+  width: 470px;
+  margin: auto;
+  display: block;
+}
+#quote-box .buttons .button {
+  height: 38px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  background-color: #333;
+  outline: none;
+  font-size: 0.9em;
+  padding: 8px 18px 6px 18px;
+  margin-top: 30px;
+  opacity: 1;
+  cursor: pointer;
+}
+#quote-box .buttons .button:hover {
+  opacity: 0.9;
+}
+#quote-box .buttons .button#tweet-quote, #quote-box .buttons .button#tumblr-quote {
+  float: left;
+  padding: 0px;
+  padding-top: 8px;
+  text-align: center;
+  font-size: 1.2em;
+  margin-right: 6px;
+  height: 37px;
+  width: 42px;
+}
+
+#quote-box .buttons .button#new-quote {
+  float: right;
+}
+.footer a {
+  font-weight: 500;
+  text-decoration: none;
+  color: white;
+  transition: transform 0.2s ease-out;
+  display: inline-block;
+}
+.footer a:hover {
+  text-decoration: none;
+  color: white;
+  transform: translateY(-5px) translateX(0px)
+}
